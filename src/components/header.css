@@ -1,0 +1,95 @@
+header{
+    position: fixed;
+    width: 90%;
+    margin:10px 5%;
+}
+#navigation{
+    justify-content: space-between;
+    display: flex;
+    font-size: larger;
+}
+
+#logo {
+    color: #FF385C;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.group {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.group > div {
+    text-align: center;
+    display: flex;
+    margin:5%;
+    padding:20px;
+    border-radius: 10px;
+    line-height: normal;
+}
+
+.group > div:hover {
+    color: white;
+    background-color: gray;
+}
+
+#profile{
+    display:flex;
+    margin: none;
+    border-radius: 20px;
+    border:1px solid gray;
+    height: 30px;
+}
+#profile > * {
+    padding: 5px;
+    margin: none;
+}
+
+/* SEARCH BAR */
+#searchBar {
+    width: 60%;
+    margin:10px auto;
+    padding: 10px 0px 5px 0px;
+    font-size: 30px;
+    border: 1px solid lightgray;
+    border-radius:50px;
+    display: flex;
+    justify-content: space-evenly;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+font-size: larger;
+}
+*>focus, #searchBar>div > input {
+    outline: none;
+    border: none;
+}
+
+#searchBar> div > label {
+    font-weight: bold;
+    font-size: small;
+    text-align: left;
+}
+
+input, label {
+    display: block;
+}
+
+#searchBar> button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: right;
+    font-size: largec;
+    background: none;
+    background-color:#FF385C;
+    color: white;
+    appearance: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    margin-right: -6%;
+    margin-top: -0.5%;
+}
+
