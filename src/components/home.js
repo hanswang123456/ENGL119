@@ -126,7 +126,11 @@ export default function Home() {
       price: 1250,
       rating: 4.8,
       length: 7,
-      img: "https://lp-cms-production.imgix.net/2021-03/GettyRF_1181940664.jpg",
+      img: [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-50571392/original/e07c3996-6a3f-4b17-89f2-dadf079be460.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-50571392/original/fd5b5ff7-0639-4d28-a1ad-c84d364e5d3f.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-50571392/original/27f82110-3214-44d0-83b3-e2d9f3203f4f.jpeg?im_w=720",
+      ],
     },
     {
       title: "Berlin",
