@@ -9,7 +9,7 @@ box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
 #navigation{
     justify-content: space-between;
     display: flex;
-    font-size: large;
+    font-size: medium;
 }
 
 #logo {
@@ -53,7 +53,7 @@ box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
 #searchBar {
     width: 60%;
     margin:10px auto;
-    padding: 10px 5px 10px 20px;
+    padding: 10px 5px 5px 20px;
     font-size: 30px;
     border: 1px solid lightgray;
     border-radius:50px;
@@ -67,7 +67,6 @@ font-size: large;
 *>focus, #searchBar>div > input {
     outline: none;
     border: none;
-    font-size: large;
 }
 
 .vSep {
@@ -101,5 +100,6 @@ input, label {
     outline: none;
     border: none;
     box-shadow: none;
+    margin-top: -5px;
 }
 
