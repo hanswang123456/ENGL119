@@ -1,7 +1,10 @@
 header{
-    position: fixed;
     width: 90%;
-    margin:10px 5%;
+    margin:10px 0;
+    padding: 0px 5% 20px 5%;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
 }
 #navigation{
     justify-content: space-between;
@@ -11,8 +14,8 @@ header{
 
 #logo {
     color: #FF385C;
-    font-weight: bold;
-    font-size: larger;
+    font-weight: 700;
+    font-size: 25px;
 }
 
 .group {
@@ -23,7 +26,7 @@ header{
 .group > div {
     text-align: center;
     display: flex;
-    margin:5%;
+    margin:2% 5%;
     padding:20px;
     border-radius: 10px;
     line-height: normal;
@@ -50,7 +53,7 @@ header{
 #searchBar {
     width: 60%;
     margin:10px auto;
-    padding: 10px 0px 5px 0px;
+    padding: 10px 0px 10px 0px;
     font-size: 30px;
     border: 1px solid lightgray;
     border-radius:50px;
@@ -64,12 +67,20 @@ font-size: larger;
 *>focus, #searchBar>div > input {
     outline: none;
     border: none;
+    font-size: large;
+}
+
+.vSep {
+    width: 1px;
+    background-color: lightgray;
+    height: 30px;
+    padding:0px 0px 10px 0px;
 }
 
 #searchBar> div > label {
-    font-weight: bold;
-    font-size: small;
+    font-weight:500;
     text-align: left;
+    font-size: smaller;
 }
 
 input, label {
@@ -78,10 +89,11 @@ input, label {
 
 #searchBar> button{
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 5px;
     float: right;
-    font-size: largec;
+    font-size: larger;
     background: none;
     background-color:#FF385C;
     color: white;
@@ -89,7 +101,6 @@ input, label {
     outline: none;
     border: none;
     box-shadow: none;
-    margin-right: -6%;
-    margin-top: -0.5%;
+    margin-right: -2.5%;
 }
 

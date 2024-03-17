@@ -1,17 +1,13 @@
 import React from "react";
 import "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faUser,
-  faBars,
-  faMagnifyingGlass,
-} from "@fortawesome/fontawesome-free-solid";
-export default function Header(props) {
+import { faBars, faUser } from "@fortawesome/fontawesome-free-solid";
+export default function Header() {
   return (
     <header>
       <div id="navigation">
         <div className="group" id="logo">
-          Waterloo Rents
+          WaterlooRents
         </div>
         <div className="group">
           <div>Rentals</div>
@@ -33,12 +29,12 @@ export default function Header(props) {
           <label>Where</label>
           <input type="text" placeholder="search destinations" />
         </div>
-        |
+        <div className="vSep"></div>
         <div>
           <label>When</label>
           <input type="date" />
         </div>
-        |
+        <div className="vSep"></div>
         <div>
           <label>Number of Tenants</label>
           <input type="number" defaultValue={1} min="1" />
