@@ -1,228 +1,24 @@
 import React from "react";
 import "./home.css";
 import Tile from "./tile";
+import SimpleMap from "./map";
 
-export default function Home() {
-  const postings = [
-    {
-      title: "San Francisco",
-      city: "San Francisco",
-      country: "USA",
-      day: 1,
-      month: 12,
-      year: 2024,
-      price: 1325,
-      rating: 4.5,
-      length: 4,
-      img: [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-40862761/original/a47c8c74-6d45-4e42-a92f-ca55fe22edeb.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/f59774ff-92b8-4dfb-b9d3-28180d638f5a.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-40862761/original/138018cb-7098-4677-aaac-2194a158ff3e.jpeg?im_w=720",
-      ],
-    },
-    {
-      title: "Toronto",
-      city: "Toronto",
-      country: "Canada",
-      day: 1,
-      month: 6,
-      year: 2024,
-      price: 785,
-      rating: 4.7,
-      length: 8,
-      img: [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1035605148028597599/original/0c3b9cd4-b97f-44aa-b399-b1968939eb85.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1035605148028597599/original/05a03885-1578-4a54-a845-e7650ce6f96f.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1035605148028597599/original/0dadf0c7-c971-4fb1-b9b6-d41f890a0b96.jpeg?im_w=1200",
-      ],
-    },
-    {
-      title: "New York City",
-      city: "New York",
-      country: "USA",
-      day: 15,
-      month: 8,
-      year: 2024,
-      price: 1450,
-      rating: 4.6,
-      length: 5,
-      img: [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1010897391607928661/original/b8901383-eab4-41da-b4ce-7c300c8825ad.jpeg?im_w=960",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1010897391607928661/original/ff80d5d3-a820-4725-ba7d-c196c0adc0a1.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1010897391607928661/original/096fa19e-b8c8-49cc-948c-22c08fc947aa.jpeg?im_w=1200",
-      ],
-    },
-    {
-      title: "London",
-      city: "London",
-      country: "UK",
-      day: 20,
-      month: 5,
-      year: 2024,
-      price: 1100,
-      rating: 4.8,
-      length: 7,
-      img: [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-974601147824144566/original/c0899bd9-50aa-4401-8bb0-a7a135c09a31.jpeg?im_w=960",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-974601147824144566/original/b1d7ca06-1682-4b8e-9358-ee251d1c947d.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-974601147824144566/original/313fe1b3-aeab-4f92-af08-7d22b65453f8.jpeg?im_w=1200",
-      ],
-    },
-    {
-      title: "Tokyo",
-      city: "Tokyo",
-      country: "Japan",
-      day: 10,
-      month: 11,
-      year: 2024,
-      price: 1600,
-      rating: 4.9,
-      length: 6,
-      img: [
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA5MTc0MDUwODc5ODk3MTEyMQ%3D%3D/original/24e0389e-fd58-490d-9160-ec795cebeafb.jpeg?im_w=960",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA5MTc0MDUwODc5ODk3MTEyMQ%3D%3D/original/f90acb30-2ea7-4c44-b7e7-2e0af588f6b5.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA5MTc0MDUwODc5ODk3MTEyMQ%3D%3D/original/81c65f66-2e30-45c9-9aee-b9add350659f.jpeg?im_w=720",
-      ],
-    },
-    {
-      title: "Paris",
-      city: "Paris",
-      country: "France",
-      day: 5,
-      month: 9,
-      year: 2024,
-      price: 1200,
-      rating: 4.7,
-      length: 4,
-      img: [
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA4NTY0OTA1NzM1NTg4MzQ1MQ%3D%3D/original/361825f7-dfd1-411a-90c2-85897cedcfcb.jpeg?im_w=320",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA4NTY0OTA1NzM1NTg4MzQ1MQ%3D%3D/original/ecd1bbfe-7482-41a6-9043-82a936d68392.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA4NTY0OTA1NzM1NTg4MzQ1MQ%3D%3D/original/301f50bd-8fb3-478e-933e-b03a3697809e.jpeg?im_w=1200",
-      ],
-    },
-    {
-      title: "Sydney",
-      city: "Sydney",
-      country: "Australia",
-      day: 25,
-      month: 3,
-      year: 2024,
-      price: 1400,
-      rating: 4.6,
-      length: 9,
-      img: [
-        "https://a0.muscache.com/im/pictures/79869856/46c9278a_original.jpg?im_w=960",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1141803/original/3d936d1e-21a4-476d-808b-9414ace0e540.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1141803/original/edc43fc0-4f60-4c27-8c59-36da6331a1fc.jpeg?im_w=1200",
-      ],
-    },
-    {
-      title: "Rome",
-      city: "Rome",
-      country: "Italy",
-      day: 14,
-      month: 7,
-      year: 2024,
-      price: 1250,
-      rating: 4.8,
-      length: 7,
-      img: [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-50571392/original/e07c3996-6a3f-4b17-89f2-dadf079be460.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-50571392/original/fd5b5ff7-0639-4d28-a1ad-c84d364e5d3f.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-50571392/original/27f82110-3214-44d0-83b3-e2d9f3203f4f.jpeg?im_w=720",
-      ],
-    },
-    {
-      title: "Berlin",
-      city: "Berlin",
-      country: "Germany",
-      day: 3,
-      month: 10,
-      year: 2024,
-      price: 1050,
-      rating: 4.6,
-      length: 5,
-      img: "https://www.telegraph.co.uk/content/dam/Travel/2019/February/berlin-thinkstock.jpg",
-    },
-    {
-      title: "Hong Kong",
-      city: "Hong Kong",
-      country: "China",
-      day: 7,
-      month: 2,
-      year: 2024,
-      price: 1350,
-      rating: 4.7,
-      length: 6,
-      img: "https://lp-cms-production.imgix.net/2020-11/GettyRF_494057771.jpg",
-    },
-    {
-      title: "Dubai",
-      city: "Dubai",
-      country: "UAE",
-      day: 11,
-      month: 4,
-      year: 2024,
-      price: 1500,
-      rating: 4.9,
-      length: 5,
-      img: "https://www.timeoutdubai.com/public/styles/full_img/public/images/2020/04/09/Dubai-Marina.jpg",
-    },
-    {
-      title: "Mumbai",
-      city: "Mumbai",
-      country: "India",
-      day: 21,
-      month: 11,
-      year: 2024,
-      price: 990,
-      rating: 4.5,
-      length: 8,
-      img: "https://www.telegraph.co.uk/content/dam/Travel/2020/February/mumbai-india.jpg",
-    },
-    {
-      title: "Rio de Janeiro",
-      city: "Rio de Janeiro",
-      country: "Brazil",
-      day: 30,
-      month: 9,
-      year: 2024,
-      price: 1125,
-      rating: 4.7,
-      length: 7,
-      img: "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/4b/a2/51.jpg",
-    },
-    {
-      title: "Barcelona",
-      city: "Barcelona",
-      country: "Spain",
-      day: 19,
-      month: 8,
-      year: 2024,
-      price: 1150,
-      rating: 4.8,
-      length: 6,
-      img: "https://lp-cms-production.imgix.net/2020-11/GettyRF_1179107000.jpg",
-    },
-    {
-      title: "Singapore",
-      city: "Singapore",
-      country: "Singapore",
-      day: 12,
-      month: 10,
-      year: 2023,
-      price: 900,
-      rating: 4.6,
-      length: 7,
-      img: "https://cdn.britannica.com/73/46873-050-A8889EE4/Marina-Bay-Sands-hotel-Singapore.jpg",
-    },
-  ];
+export default function Home(props) {
+  const p = props.props;
 
   return (
     <section>
-      {postings.map((el, i) => {
-        return <Tile key={i} posting={el} />;
+      {p.posting.map((el, i) => {
+        if (
+          (el.title.toLocaleLowerCase().includes(p.val.toLocaleLowerCase()) ||
+            p.val == "") &&
+          el.price < p.price &&
+          el.rating > p.rating
+        ) {
+          return <Tile key={i} posting={el} />;
+        }
       })}
+      <SimpleMap />
     </section>
   );
 }
