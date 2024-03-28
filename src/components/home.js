@@ -11,7 +11,11 @@ export default function Home(props) {
       {p.posting.map((el, i) => {
         if (
           (el.title.toLocaleLowerCase().includes(p.val.toLocaleLowerCase()) ||
-            p.val === "") &&
+            p.val === "" ||
+            el.city.toLocaleLowerCase().includes(p.val.toLocaleLowerCase()) ||
+            el.country
+              .toLocaleLowerCase()
+              .includes(p.val.toLocaleLowerCase())) &&
           el.price < p.price &&
           el.rating > p.rating &&
           el.leaseType === p.leaseType &&
