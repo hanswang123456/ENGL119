@@ -6,9 +6,19 @@ import Home from "./home";
 import postings from "./posting.json";
 
 export default function Header() {
+  const options = ["All", "Apartments", "Townhomes", "Houses"];
+
   let [searchLoc, setSearchLoc] = useState("");
   let [price, setPrice] = useState(5000);
   let [rating, setRating] = useState(1);
+  let [term, setTerm] = useState(4);
+
+  var curr = new Date();
+  curr.setDate(curr.getDate() + 3);
+  var date = curr.toISOString().substring(0, 10);
+  let [start, setStart] = useState(date);
+
+  let [type, setType] = useState(options[0]);
 
   let wordSearch = function (e) {
     setSearchLoc(e.target.value);
@@ -20,6 +30,15 @@ export default function Header() {
     setPrice(e.target.value);
   };
 
+  let termFilter = function (e) {
+    setTerm(e.target.value);
+  };
+  let startFilter = function (e) {
+    var curr = new Date(e.target.value);
+    curr.setDate(curr.getDate() + 3);
+    var date = curr.toISOString().substring(0, 10);
+    setStart(date);
+  };
   return (
     <div>
       <header>
@@ -54,7 +73,12 @@ export default function Header() {
           <div className="vSep"></div>
           <div>
             <label>When</label>
-            <input type="date" />
+            <input
+              id="datePick"
+              type="date"
+              value={start}
+              onChange={startFilter}
+            />
           </div>
           <div className="vSep"></div>
           <div>
@@ -65,26 +89,56 @@ export default function Header() {
         </div>
       </header>
       <div className="filter">
-        {"Max Price: " + price}
-        <input
-          type="range"
-          min="50"
-          max={Math.max(...postings.map((el) => el.price))}
-          value={price}
-          class="slider"
-          id="maxPrice"
-          onChange={priceFilter}
-        />
-        {"Min Rating: " + rating}
-        <input
-          type="range"
-          min="1"
-          max="5"
-          value={rating}
-          class="slider"
-          id="minRating"
-          onChange={ratingFilter}
-        />
+        <div>
+          <select onChange={(e) => setType(e.target.value)} defaultValue={type}>
+            {options.map((option, idx) => (
+              <option key={idx}>{option}</option>
+            ))}
+          </select>
+          <h2>
+            {" "}
+            Searching{" "}
+            <span style={{ backgroundColor: "#FF385C", color: "white" }}>
+              {type}
+            </span>
+          </h2>
+        </div>
+        <div>
+          {"Max Price: " + price}
+          <input
+            type="range"
+            min="50"
+            max={Math.max(...postings.map((el) => el.price))}
+            value={price}
+            className="slider"
+            id="maxPrice"
+            onChange={priceFilter}
+          />
+        </div>
+        <div>
+          {"Min Rating: " + rating}
+          <input
+            type="range"
+            min="1"
+            max="5"
+            value={rating}
+            className="slider"
+            id="minRating"
+            onChange={ratingFilter}
+          />
+        </div>
+        <div>
+          {"Lease/Sublease Term: " + term + " Months"}
+          <input
+            type="range"
+            min="4"
+            max={12}
+            value={term}
+            className="slider"
+            id="maxTerm"
+            onChange={termFilter}
+          />
+        </div>
       </div>
 
       <section>
@@ -94,6 +148,9 @@ export default function Header() {
             price: price,
             rating: rating,
             posting: postings,
+            type: type,
+            term: term,
+            start: start,
           }}
         />
       </section>

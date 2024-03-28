@@ -1,27 +1,37 @@
-import React from "react";
-import GoogleMapReact from "google-map-react";
+import { ReactDOM, useRef, useState, useEffect } from "react";
+import * as maptilersdk from "@maptiler/sdk";
+import "@maptiler/sdk/dist/maptiler-sdk.css";
+import "./map.css";
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+export default function SimpleMap(props) {
+  const mapContainer = useRef(null);
+  const map = useRef(null);
+  const tokyo = { lng: 139.753, lat: 35.6844 };
+  const [zoom] = useState(14);
+  maptilersdk.config.apiKey = import.meta.env.API;
 
-export default function SimpleMap() {
-  const defaultProps = {
-    center: {
-      lat: 10.99835602,
-      lng: 77.01502627,
-    },
-    zoom: 11,
-  };
+  useEffect(() => {
+    if (map.current) return; // stops map from intializing more than once
+
+    map.current = new maptilersdk.Map({
+      container: mapContainer.current,
+      style: maptilersdk.MapStyle.STREETS,
+      center: [props.props[0].long, props.props[0].lat],
+      zoom: zoom,
+    });
+
+    for (let marker of props.props) {
+      console.log(marker);
+
+      new maptilersdk.Marker({ color: "#FF0000" })
+        .setLngLat([marker.long, marker.lat])
+        .addTo(map.current);
+    }
+  }, [zoom]);
 
   return (
-    // Important! Always set the container height explicitly
-    <div style={{ height: "100vh", width: "100%" }}>
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: "" }}
-        defaultCenter={defaultProps.center}
-        defaultZoom={defaultProps.zoom}
-      >
-        <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
-      </GoogleMapReact>
+    <div className="map-wrap">
+      <div ref={mapContainer} className="map" />
     </div>
   );
 }
