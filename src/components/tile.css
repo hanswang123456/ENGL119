@@ -30,3 +30,14 @@
 .postingTile > div:nth-child(5) {
     margin-top: 5px;
 }
+
+.verifiedCheck{
+    position: relative;
+    float: right;
+    color: white;
+    font-size: 100;
+    background-color: #FF385C;
+    border-radius: 50%;
+    padding:1px 3px;
+    margin-right: 3px;
+}

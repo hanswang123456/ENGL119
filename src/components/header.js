@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faUser } from "@fortawesome/fontawesome-free-solid";
 import Home from "./home";
 import postings from "./posting.json";
+import Footer from "./footer";
 
 export default function Header() {
   const options = ["All", "Apartments", "Townhomes", "Houses"];
@@ -12,13 +13,14 @@ export default function Header() {
   let [price, setPrice] = useState(5000);
   let [rating, setRating] = useState(1);
   let [term, setTerm] = useState(4);
+  let [leaseType, setLeaseType] = useState("Sublet");
 
   var curr = new Date();
   curr.setDate(curr.getDate() + 3);
   var date = curr.toISOString().substring(0, 10);
   let [start, setStart] = useState(date);
-
   let [type, setType] = useState(options[0]);
+  let [ver, setVer] = useState(false);
 
   let wordSearch = function (e) {
     setSearchLoc(e.target.value);
@@ -47,8 +49,22 @@ export default function Header() {
             WaterlooRents
           </div>
           <div className="group">
-            <div>Rentals</div>
-            <div>Sublets</div>
+            <div
+              style={{
+                backgroundColor: leaseType === "Lease" ? "gray" : "white",
+              }}
+              onClick={() => setLeaseType("Lease")}
+            >
+              Rentals
+            </div>
+            <div
+              style={{
+                backgroundColor: leaseType === "Sublet" ? "gray" : "white",
+              }}
+              onClick={() => setLeaseType("Sublet")}
+            >
+              Sublets
+            </div>
             <div>Destinations</div>
           </div>
           <div className="group">
@@ -98,10 +114,18 @@ export default function Header() {
           <h2>
             {" "}
             Searching{" "}
-            <span style={{ backgroundColor: "#FF385C", color: "white" }}>
+            <span style={{ backgroundColor: "yellow", color: "black" }}>
               {type}
-            </span>
+            </span>{" "}
           </h2>
+        </div>
+        <div>
+          {"Verified? "}
+          <br />
+          <label class="switch">
+            <input type="checkbox" onChange={() => setVer(!ver)} />
+            <span class="slid round"></span>
+          </label>
         </div>
         <div>
           {"Max Price: " + price}
@@ -151,9 +175,12 @@ export default function Header() {
             type: type,
             term: term,
             start: start,
+            leaseType: leaseType,
+            verified: ver,
           }}
         />
       </section>
+      <Footer />
     </div>
   );
 }

@@ -1,19 +1,20 @@
  [
     {
-      "title": "Waterloo",
+      "title": "100 University Ave. E",
       "city": "Waterloo",
       "country": "Canada",
+      "verified":true,
       "day": 1,
-      "month": 12,
+      "month": 9,
       "year": 2024,
       "price": 745,
       "rating": 3.5,
       "length": 4,
       "type":"Apartments",
       "long": -80.5449,
+      "leaseType":"Sublet",
 "lat": 43.4723,
       "img": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-40862761/original/a47c8c74-6d45-4e42-a92f-ca55fe22edeb.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/f59774ff-92b8-4dfb-b9d3-28180d638f5a.jpg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-40862761/original/138018cb-7098-4677-aaac-2194a158ff3e.jpeg?im_w=720"
       ]
@@ -22,17 +23,19 @@
       "title": "235 Albert St",
       "city": "Waterloo",
       "country": "Canada",
+      "verified":true,
       "day": 1,
-      "month": 6,
+      "month": 5,
       "year": 2024,
       "price": 785,
       "rating": 4.7,
       "length": 8,
       "type":"Apartments",
+      "leaseType":"Sublet",
       "long": -80.5335,
 "lat": 43.4753,
       "img": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1035605148028597599/original/0c3b9cd4-b97f-44aa-b399-b1968939eb85.jpeg?im_w=1200",
+        "https://m.media-amazon.com/images/I/716y25GL7cL._UF350,350_QL80_.jpg",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1035605148028597599/original/05a03885-1578-4a54-a845-e7650ce6f96f.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1035605148028597599/original/0dadf0c7-c971-4fb1-b9b6-d41f890a0b96.jpeg?im_w=1200"
       ]
@@ -41,17 +44,19 @@
       "title": "328 Regina St",
       "city": "Waterloo",
       "country": "Canada",
-      "day": 15,
+      "verified":true,
+      "day": 27,
       "month": 8,
       "year": 2024,
       "price": 1450,
       "rating": 4.6,
-      "length": 5,
+      "length": 4,
       "type":"Apartments",
+      "leaseType":"Sublet",
       "long": -80.5239,
 "lat": 43.4689,
       "img": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1010897391607928661/original/b8901383-eab4-41da-b4ce-7c300c8825ad.jpeg?im_w=960",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXX0aRuJu04JSWS5ZJLB5ost7h8fe05_HiEg&usqp=CAU",        
         "https://a0.muscache.com/im/pictures/miso/Hosting-1010897391607928661/original/ff80d5d3-a820-4725-ba7d-c196c0adc0a1.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1010897391607928661/original/096fa19e-b8c8-49cc-948c-22c08fc947aa.jpeg?im_w=1200"
       ]
@@ -60,6 +65,7 @@
       "title": "121 Phillip St",
       "city": "Waterloo",
       "country": "Canada",
+      "verified":false,
       "day": 20,
       "month": 5,
       "year": 2024,
@@ -67,10 +73,11 @@
       "rating": 4.8,
       "length": 7,
       "type":"Apartments",
+      "leaseType":"Lease",
       "long": -80.5223,
 "lat": 43.4678,
       "img": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-974601147824144566/original/c0899bd9-50aa-4401-8bb0-a7a135c09a31.jpeg?im_w=960",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ZLzdHCBqHRL7qbFS0MLXFsKmbwniNwwTZh1CtHQdWXBGjq_CR1qnA6TEgm0nv26_HpQ&usqp=CAU",        
         "https://a0.muscache.com/im/pictures/miso/Hosting-974601147824144566/original/b1d7ca06-1682-4b8e-9358-ee251d1c947d.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-974601147824144566/original/313fe1b3-aeab-4f92-af08-7d22b65453f8.jpeg?im_w=1200"
       ]
@@ -79,180 +86,670 @@
       "title": "179 Westmount Rd",
       "city": "Waterloo",
       "country": "Canada",
+      "verified":false,
       "day": 10,
       "month": 11,
       "year": 2024,
       "price": 1600,
       "rating": 4.9,
-      "length": 6,
+      "length": 8,
       "type":"Houses",
+      "leaseType":"Lease",
+
       "long": -80.5257,
 "lat": 43.4973,
       "img": [
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA5MTc0MDUwODc5ODk3MTEyMQ%3D%3D/original/24e0389e-fd58-490d-9160-ec795cebeafb.jpeg?im_w=960",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA5MTc0MDUwODc5ODk3MTEyMQ%3D%3D/original/f90acb30-2ea7-4c44-b7e7-2e0af588f6b5.jpeg?im_w=720",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJKIsgquaM40GuzPceS89kHWklOIxGhlQX5w&usqp=CAU", 
+               "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA5MTc0MDUwODc5ODk3MTEyMQ%3D%3D/original/f90acb30-2ea7-4c44-b7e7-2e0af588f6b5.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA5MTc0MDUwODc5ODk3MTEyMQ%3D%3D/original/81c65f66-2e30-45c9-9aee-b9add350659f.jpeg?im_w=720"
       ]
     },
-    {
-      "title": "Paris",
-      "city": "Paris",
-      "country": "France",
-      "day": 5,
-      "month": 9,
-      "year": 2024,
-      "price": 1200,
-      "rating": 4.7,
-      "length": 4,
-      "long": -80.4692,
-"lat": 43.4602
-,
-      "img": [
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA4NTY0OTA1NzM1NTg4MzQ1MQ%3D%3D/original/361825f7-dfd1-411a-90c2-85897cedcfcb.jpeg?im_w=320",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA4NTY0OTA1NzM1NTg4MzQ1MQ%3D%3D/original/ecd1bbfe-7482-41a6-9043-82a936d68392.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA4NTY0OTA1NzM1NTg4MzQ1MQ%3D%3D/original/301f50bd-8fb3-478e-933e-b03a3697809e.jpeg?im_w=1200"
-      ]
-    },
-    {
-      "title": "Sydney",
-      "city": "Sydney",
-      "country": "Australia",
-      "day": 25,
-      "month": 3,
-      "year": 2024,
-      "price": 1400,
-      "rating": 4.6,
-      "length": 9,
-      "long": -80.5541,
-"lat": 43.5217,
-      "img": [
-        "https://a0.muscache.com/im/pictures/79869856/46c9278a_original.jpg?im_w=960",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1141803/original/3d936d1e-21a4-476d-808b-9414ace0e540.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1141803/original/edc43fc0-4f60-4c27-8c59-36da6331a1fc.jpeg?im_w=1200"
-      ]
-    },
-    {
-      "title": "Rome",
-      "city": "Rome",
-      "country": "Italy",
-      "day": 14,
-      "month": 7,
-      "year": 2024,
-      "price": 1250,
-      "rating": 4.8,
-      "length": 7,
-      "long": -80.4692,
-      "lat": 43.4602
-      ,
-      "img": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-50571392/original/e07c3996-6a3f-4b17-89f2-dadf079be460.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-50571392/original/fd5b5ff7-0639-4d28-a1ad-c84d364e5d3f.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-50571392/original/27f82110-3214-44d0-83b3-e2d9f3203f4f.jpeg?im_w=720"
-      ]
-    },
-    {
-        "long": -80.4692,
-        "lat": 43.4602
-        ,
-      "title": "Berlin",
-      "city": "Berlin",
-      "country": "Germany",
-      "day": 3,
-      "month": 10,
-      "year": 2024,
-      "price": 1050,
-      "rating": 4.6,
-      "length": 5,
-      "img": "https://www.telegraph.co.uk/content/dam/Travel/2019/February/berlin-thinkstock.jpg"
-    },
-    {
-        "long": -80.4692,
-        "lat": 43.4602
-        ,
-      "title": "Hong Kong",
-      "city": "Hong Kong",
-      "country": "China",
-      "day": 7,
-      "month": 2,
-      "year": 2024,
-      "price": 1350,
-      "rating": 4.7,
-      "length": 6,
-      "img": "https://lp-cms-production.imgix.net/2020-11/GettyRF_494057771.jpg"
-    },
-    {
-        "long": -80.4692,
-        "lat": 43.4602
-        ,
-      "title": "Dubai",
-      "city": "Dubai",
-      "country": "UAE",
-      "day": 11,
-      "month": 4,
-      "year": 2024,
-      "price": 1500,
-      "rating": 4.9,
-      "length": 5,
-      "img": "https://www.timeoutdubai.com/public/styles/full_img/public/images/2020/04/09/Dubai-Marina.jpg"
-    },
-    {
-        "long": -80.4692,
-        "lat": 43.4602
-        ,
-      "title": "Mumbai",
-      "city": "Mumbai",
-      "country": "India",
-      "day": 21,
-      "month": 11,
-      "year": 2024,
-      "price": 990,
-      "rating": 4.5,
-      "length": 8,
-      "img": "https://www.telegraph.co.uk/content/dam/Travel/2020/February/mumbai-india.jpg"
-    },
-    {
-        "long": -80.4692,
-        "lat": 43.4602
-        ,
-      "title": "Rio de Janeiro",
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "day": 30,
-      "month": 9,
-      "year": 2024,
-      "price": 1125,
-      "rating": 4.7,
-      "length": 7,
-      "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/4b/a2/51.jpg"
-    },
-    {
-        "long": -80.4692,
-        "lat": 43.4602
-        ,
-      "title": "Barcelona",
-      "city": "Barcelona",
-      "country": "Spain",
-      "day": 19,
-      "month": 8,
-      "year": 2024,
-      "price": 1150,
-      "rating": 4.8,
-      "length": 6,
-      "img": "https://lp-cms-production.imgix.net/2020-11/GettyRF_1179107000.jpg"
-    },
-    {
-        "long": -80.4692,
-        "lat": 43.4602
-        ,
-      "title": "Singapore",
-      "city": "Singapore",
-      "country": "Singapore",
-      "day": 12,
-      "month": 10,
-      "year": 2023,
-      "price": 900,
-      "rating": 4.6,
-      "length": 7,
-      "img": "https://cdn.britannica.com/73/46873-050-A8889EE4/Marina-Bay-Sands-hotel-Singapore.jpg"
-    }
-  ]
+      {
+        "title": "140 Lincoln Rd.",
+        "city": "Waterloo",
+        "country": "Canada",
+        "verified":true,
+        "day": 1,
+        "month": 8,
+        "year": 2024,
+        "price": 932,
+        "rating": 3.8,
+        "length": 4,
+        "type": "Apartments",
+        "long": -80.5343,
+        "lat": 43.4698,
+        "leaseType": "Lease",
+        "img": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaCftWvx2MlNMu6lgGUHd0_yty9_r8nsymcA&usqp=CAU",          "https://example.com/image2.jpg",
+          "https://example.com/image3.jpg"
+        ]
+      },
+      {
+        "title": "330 Phillip St.",
+        "city": "Waterloo",
+        "country": "Canada",
+        "verified":false,
+
+        "day": 1,
+        "month": 4,
+        "year": 2025,
+        "price": 824,
+        "rating": 4.1,
+        "length": 4,
+        "type": "Apartments",
+        "long": -80.5446,
+        "lat": 43.4740,
+        "leaseType": "Sublet",
+        "img": [
+          "https://s.yimg.com/ny/api/res/1.2/idz6DXtkF7fBpzIGUKwgCA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://media.zenfs.com/en/insider_articles_922/a6941c73cddc7579066948e4b870c655",          "https://example.com/image2.jpg",
+          "https://example.com/image3.jpg"
+        ]
+      },
+      {
+        "title": "103 Roger St.",
+        "city": "Waterloo",
+        "country": "Canada",
+        "verified":false,
+
+        "day": 1,
+        "month": 6,
+        "year": 2024,
+        "price": 697,
+        "rating": 3.0,
+        "length": 4,
+        "type": "Apartments",
+        "long": -80.5409,
+        "lat": 43.4745,
+        "leaseType": "Lease",
+        "img": [
+          "https://st.hzcdn.com/simgs/pictures/bedrooms/montreal-student-residence-unique-home-solutions-inc-img~f4e1398d0d2e031e_4-0619-1-25f85e6.jpg",          "https://example.com/image3.jpg"
+        ]
+      },
+      {
+        "title": "103 Roger St.",
+        "city": "Waterloo",
+        "country": "Canada",
+        "verified":false,
+
+        "day": 1,
+        "month": 6,
+        "year": 2024,
+        "price": 298,
+        "rating": 3.2,
+        "length": 8,
+        "type": "Houses",
+        "long": -80.5409,
+        "lat": 43.4745,
+        "leaseType": "Sublet",
+        "img": [
+          "https://d31kydh6n6r5j5.cloudfront.net/uploads/sites/2/2021/10/IMG_9587-scaled.jpeg?resize=1200,630&crop=0,15,100,70",          "https://example.com/image2.jpg",
+          "https://example.com/image3.jpg"
+        ]
+      },
+        {
+          "title": "50 Hickory St. W",
+          "city": "Waterloo",
+          "country": "Canada",
+          "verified":true,
+
+          "day": 1,
+          "month": 12,
+          "year": 2024,
+          "price": 732,
+          "rating": 4.5,
+          "length": 6,
+          "type": "Apartments",
+          "long": -80.5444,
+          "lat": 43.4654,
+          "leaseType": "Sublet",
+          "img": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5wBIkvWGgugUvnXaOENQgJ9bRx2JR_minkA&usqp=CAU",            "https://example.com/image3.jpg"
+          ]
+        },
+        {
+          "title": "130 Columbia St. W",
+          "city": "Waterloo",
+          "country": "Canada",
+          "verified":true,
+
+          "day": 1,
+          "month": 1,
+          "year": 2025,
+          "price": 819,
+          "rating": 4.3,
+          "length": 4,
+          "type": "Apartments",
+          "long": -80.5317,
+          "lat": 43.4721,
+          "leaseType": "Sublet",
+          "img": [
+            "https://asiasociety.org/sites/default/files/styles/1200w/public/D/dormroom.jpg",
+                        "https://example.com/image2.jpg",
+            "https://example.com/image3.jpg"
+          ]
+        },
+        {
+          "title": "130 Columbia St. W",
+          "city": "Waterloo",
+          "country": "Canada",
+          "verified":true,
+          "day": 1,
+          "month": 6,
+          "year": 2025,
+          "price": 849,
+          "rating": 4.3,
+          "length": 4,
+          "type": "Apartments",
+          "long": -80.5317,
+          "lat": 43.4721,
+          "leaseType": "Lease",
+          "img": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqhbry2qqW3JtFaaWNIxvAL0ZYt_9chcNMfA&usqp=CAU",            "https://example.com/image2.jpg",
+            "https://example.com/image3.jpg"
+          ]
+        },
+        {
+          "title": "225 Sunview St.",
+          "city": "Waterloo",
+          "country": "Canada",
+          "verified":true,
+
+          "day": 1,
+          "month": 8,
+          "year": 2024,
+          "price": 678,
+          "rating": 3.7,
+          "length": 6,
+          "type": "Apartments",
+          "long": -80.5388,
+          "lat": 43.4724,
+          "leaseType": "Sublet",
+          "img": [
+            "https://medialibrarycfo.entrata.com/18981/MLv3/10/41/2023/09/21/072854/650c4516d21147.32262294988.webp",
+            "https://example.com/image2.jpg",
+            "https://example.com/image3.jpg"
+          ]
+        },
+        {
+          "title": "256 Lester St.",
+          "city": "Waterloo",
+          "country": "Canada",
+          "verified":true,
+          "day": 1,
+          "month": 4,
+          "year": 2025,
+          "price": 701,
+          "rating": 3.2,
+          "length": 4,
+          "type": "Apartments",
+          "long": -80.5430,
+          "lat": 43.4729,
+          "leaseType": "Lease",
+          "img": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5wBIkvWGgugUvnXaOENQgJ9bRx2JR_minkA&usqp=CAU",
+            "https://example.com/image2.jpg",
+            "https://example.com/image3.jpg"
+          ]
+        },
+        {
+          "title": "256 Lester St.",
+          "city": "Waterloo",
+          "country": "Canada",          
+          "verified":true,
+          "day": 1,
+          "month": 4,
+          "year": 2025,
+          "price": 1023,
+          "rating": 3.6,
+          "length": 4,
+          "type": "Houses",
+          "long": -80.5430,
+          "lat": 43.4729,
+          "leaseType": "Sublet",
+          "img": [
+            "https://medialibrarycfo.entrata.com/18981/MLv3/10/41/2023/09/21/072854/650c4516d21147.32262294988.webp",            "https://example.com/image3.jpg"
+          ]
+        },
+        {
+          "title": "155 King St. N",
+          "city": "Waterloo",
+          "country": "Canada",
+          "verified":true,
+          "day": 1,
+          "month": 12,
+          "year": 2024,
+          "price": 991,
+          "rating": 4.8,
+          "length": 6,
+          "type": "Apartments",
+          "long": -80.5278,
+          "lat": 43.4697,
+          "leaseType": "Sublet",
+          "img": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXX0aRuJu04JSWS5ZJLB5ost7h8fe05_HiEg&usqp=CAU",            "https://example.com/image2.jpg",
+            "https://example.com/image3.jpg"
+          ]
+        },
+        {
+          "title": "239 Auburn Dr.",
+          "city": "Waterloo",
+          "country": "Canada",
+          "verified":false,
+          "day": 1,
+          "month": 8,
+          "year": 2025,
+          "price": 752,
+          "rating": 4.0,
+          "length": 4,
+          "type": "Apartments",
+          "long": -80.5370,
+          "lat": 43.4738,
+          "leaseType": "Lease",
+          "img": [
+            "https://m.media-amazon.com/images/I/716y25GL7cL._UF350,350_QL80_.jpg",
+            "https://example.com/image2.jpg",
+            "https://example.com/image3.jpg"
+          ]
+        },
+        {
+          "title": "239 Auburn Dr.",
+          "city": "Waterloo",
+          "country": "Canada",
+          "verified":false,
+          "day": 2,
+          "month": 9,
+          "year": 2024,
+          "price": 752,
+          "rating": 3.7,
+          "length": 4,
+          "type": "Townhomes",
+          "long": -80.5370,
+          "lat": 43.4738,
+          "leaseType": "Sublet",
+          "img": [
+            "https://api.macaronikid.com/assets/uploads/e81e5c49-3c65-4bc3-b6cf-09b49e5f50d9.png",
+            "https://example.com/image2.jpg",
+            "https://example.com/image3.jpg"
+          ]
+        },
+        {
+          "title": "57 Union St. E",
+          "city": "Waterloo",
+          "country": "Canada",
+          "verified":true,
+          "day": 1,
+          "month": 6,
+          "year": 2024,
+          "price": 675,
+          "rating": 3.3,
+          "length": 4,
+          "type": "Apartments",
+          "long": -80.5356,
+          "lat": 43.4655,
+          "leaseType": "Sublet",
+          "img": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzzjS8M7oLboD1qn1IAG8hzJtvq63tQik4kA&usqp=CAU",            "https://example.com/image2.jpg",
+            "https://example.com/image3.jpg"
+          ]
+        },
+          {
+            "title": "274 Erb St. W",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":false,
+
+            "day": 1,
+            "month": 8,
+            "year": 2025,
+            "price": 793,
+            "rating": 3.9,
+            "length": 4,
+            "type": "Apartments",
+            "long": -80.5375,
+            "lat": 43.4726,
+            "leaseType": "Lease",
+            "img": [
+              "https://regencyoaksseniorliving.com/wp-content/uploads/31508090-shutterstock_1075737842-1.jpg",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "274 Erb St. W",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":true,
+            "day": 27,
+            "month": 8,
+            "year": 2025,
+            "price": 743,
+            "rating": 3.9,
+            "length": 4,
+            "type": "Apartments",
+            "long": -80.5375,
+            "lat": 43.4726,
+            "leaseType": "Sublet",
+            "img": [
+              "https://sq1-wordpress-prod.s3.us-west-2.amazonaws.com/wp-content/uploads/2022/02/08153435/small-kitchen.jpg",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "736 Old Albert St.",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":false,
+            "day": 1,
+            "month": 12,
+            "year": 2024,
+            "price": 698,
+            "rating": 3.6,
+            "length": 8,
+            "type": "Apartments",
+            "long": -80.5291,
+            "lat": 43.4681,
+            "leaseType": "Sublet",
+            "img": [
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqS0vNl-i6XppsXB_vEmXFUdfUoqtNaFk6og&usqp=CAU",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "99 Milford Ave.",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":false,
+            "day": 1,
+            "month": 4,
+            "year": 2024,
+            "price": 851,
+            "rating": 4.7,
+            "length": 4,
+            "type": "Apartments",
+            "long": -80.5260,
+            "lat": 43.4722,
+            "leaseType": "Lease",
+            "img": [
+              "https://hips.hearstapps.com/hmg-prod/images/minimalist-kitchen-1-1500581330.jpg",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "99 Milford Ave.",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":true,
+            "day": 1,
+            "month": 9,
+            "year": 2024,
+            "price": 851,
+            "rating": 4.5,
+            "length": 4,
+            "type": "Houses",
+            "long": -80.5260,
+            "lat": 43.4722,
+            "leaseType": "Sublet",
+            "img": [
+              "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_800,w_1200/v1631124945/g5/g5-c-5q2r18q2z-campus-life-style/g5-cl-1lk7ku2t0t-campus-life-style-greensboro-nc/uploads/CLS_UniversityCrossing_771_yjtdlo.jpg",              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "21 Columbia St. W",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":true,
+            "day": 1,
+            "month": 6,
+            "year": 2025,
+            "price": 727,
+            "rating": 4.2,
+            "length": 4,
+            "type": "Apartments",
+            "long": -80.5403,
+            "lat": 43.4722,
+            "leaseType": "Sublet",
+            "img": [
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS11YS6-Os4yDWxjIH7kQsL7imHW7sY8xIF1g&usqp=CAU",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "168 King St. N",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":false,
+            "day": 1,
+            "month": 8,
+            "year": 2024,
+            "price": 1067,
+            "rating": 4.4,
+            "length": 4,
+            "type": "Apartments",
+            "long": -80.5262,
+            "lat": 43.4702,
+            "leaseType": "Lease",
+            "img": [
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmwiDiX2F-lonHvFFlqpmD1rSr7qBrSLp-1z6haIG0WDs_VLVIdHGtaP7_OYkaK2ejXVI&usqp=CAU",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "168 King St. N",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":true,
+            "day": 1,
+            "month": 5,
+            "year": 2024,
+            "price": 561,
+            "rating": 4.4,
+            "length": 4,
+            "type": "Townhomes",
+            "long": -80.5262,
+            "lat": 43.4702,
+            "leaseType": "Sublet",
+            "img": [
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvKZRM4dZFyNwyZKS1Zbs6wKB34i-fwLi_HA&usqp=CAU",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "515 Albert St.",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":false,
+            "day": 1,
+            "month": 12,
+            "year": 2025,
+            "price": 932,
+            "rating": 3.8,
+            "length": 4,
+            "type": "Apartments",
+            "long": -80.5305,
+            "lat": 43.4679,
+            "leaseType": "Sublet",
+            "img": [
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ86D-L2VKlpDRmqmS4hhAKjoVuAnXTiq2h5A&usqp=CAU",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "201 Erb St. W",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":false,
+            "day": 1,
+            "month": 6,
+            "year": 2024,
+            "price": 879,
+            "rating": 4.6,
+            "length": 4,
+            "type": "Apartments",
+            "long": -80.5369,
+            "lat": 43.4713,
+            "leaseType": "Lease",
+            "img": [
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAVjucivexC3rRxEvuVnNfj7K5E0dAfM3KWQ&usqp=CAU",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "201 Erb St. W",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":true,
+            "day": 1,
+            "month": 6,
+            "year": 2024,
+            "price": 812,
+            "rating": 4.2,
+            "length": 4,
+            "type": "Apartments",
+            "long": -80.5369,
+            "lat": 43.4713,
+            "leaseType": "Sublet",
+            "img": [
+              "https://cdn.apartmenttherapy.info/image/upload/v1663114440/at/house%20tours/2022-09/Kayla%20S/house-tours-kayla-shannon-brooklyn-9175.jpg",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "173 King St. N",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":false,
+            "day": 1,
+            "month": 4,
+            "year": 2025,
+            "price": 792,
+            "rating": 4.3,
+            "length": 4,
+            "type": "Apartments",
+            "long": -80.5271,
+            "lat": 43.4696,
+            "leaseType": "Sublet",
+            "img": [
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLOInRpWQ2kkuzDzYT0uFImeCpsdTxAjZKVxOgaMZYJ55R5858qBkEkqiCwk8Lo1s_GOA&usqp=CAU",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "68 Weber St.",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":false,
+            "day": 1,
+            "month": 8,
+            "year": 2024,
+            "price": 710,
+            "rating": 3.5,
+            "length": 4,
+            "type": "Apartments",
+            "long": -80.5340,
+            "lat": 43.4701,
+            "leaseType": "Lease",
+            "img": [
+              "https://media.istockphoto.com/id/166209419/photo/modern-small-kitchen.jpg?s=612x612&w=0&k=20&c=52E19hXTqX04AY2NiAlLTj-zllX0BxwSabIDk9ZX330=",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "68 Weber St.",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":true,
+            "day": 1,
+            "month": 8,
+            "year": 2024,
+            "price": 710,
+            "rating": 3.7,
+            "length": 4,
+            "type": "Houses",
+            "long": -80.5340,
+            "lat": 43.4701,
+            "leaseType": "Sublet",
+            "img": [
+              "https://www.home-designing.com/wp-content/uploads/2013/01/white-small-apartment-kitchen.jpg",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "190 Allen St.",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":false,
+            "day": 1,
+            "month": 6,
+            "year": 2025,
+            "price": 767,
+            "rating": 4.0,
+            "length": 4,
+            "type": "Apartments",
+            "long": -80.5313,
+            "lat": 43.4691,
+            "leaseType": "Sublet",
+            "img": [
+              "https://s2rf64.cloudimg.io/s/cdn/x/https://s3.amazonaws.com/cdn.ucribs.com/images/listings/1221960/1510680608-UV%20Bedroom.jpg",              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+            "title": "25 Westmount Rd. N",
+            "city": "Waterloo",
+            "country": "Canada",
+            "verified":true,
+            "day": 1,
+            "month": 16,
+            "year": 2024,
+            "price": 695,
+            "rating": 3.2,
+            "length": 8,
+            "type": "Townhomes",
+            "long": -80.5336,
+            "lat": 43.4729,
+            "leaseType": "Sublet",
+            "img": [
+              "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_800,w_1200/v1631124945/g5/g5-c-5q2r18q2z-campus-life-style/g5-cl-1lk7ku2t0t-campus-life-style-greensboro-nc/uploads/CLS_UniversityCrossing_771_yjtdlo.jpg",              "https://example.com/image2.jpg",
+              "https://example.com/image3.jpg"
+            ]
+          },
+          {
+              "title": "25 Westmount Rd. N",
+              "city": "Waterloo",
+              "country": "Canada",
+              "verified":true,
+              "day": 1,
+              "month": 12,
+              "year": 2025,
+              "price": 695,
+              "rating": 3.2,
+              "length": 4,
+              "type": "Townhomes",
+              "long": -80.5336,
+              "lat": 43.4729,
+              "leaseType": "Lease",
+              "img": [
+                "https://cdn.thewirecutter.com/wp-content/media/2023/07/dormessentials-2048px-dormroom-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=1024",
+                "https://example.com/image2.jpg",
+                "https://example.com/image3.jpg"
+              ]
+            },
+            {
+              "title": "58 Bridgeport Rd. E",
+              "city": "Waterloo",
+              "country": "Canada",
+              "verified":true,
+              "day": 1,
+              "month": 8,
+              "year": 2024,
+              "price": 873,
+              "rating": 4.4,
+              "length": 8,
+              "type": "Apartments",
+              "long": -80.5229,
+              "lat": 43.4639,
+              "leaseType": "Sublet",
+              "img": [
+                "https://api.macaronikid.com/assets/uploads/e81e5c49-3c65-4bc3-b6cf-09b49e5f50d9.png",                "https://example.com/image2.jpg",
+                "https://example.com/image3.jpg"
+              ]
+            }      
+]

@@ -1,13 +1,12 @@
 import React from "react";
 import "./tile.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/fontawesome-free-solid";
+import { faStar, faCheck } from "@fortawesome/fontawesome-free-solid";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
 export default function Tile(props) {
   const base = props.posting;
-  console.log(base.title);
   return (
     <div className="postingTile">
       <Slide
@@ -36,10 +35,13 @@ export default function Tile(props) {
         </div>
       </Slide>
       <div className="location">
-        {base.city}, {base.country}{" "}
+        {base.title}{" "}
         <span className="rating">
           <FontAwesomeIcon icon="star" /> {base.rating}
         </span>
+      </div>
+      <div className="location">
+        {base.city}, {base.country}{" "}
       </div>
       <div>{base.length} Month Term</div>
       <div>
@@ -47,6 +49,10 @@ export default function Tile(props) {
       </div>
       <div>
         <span className="price">${base.price} CAD</span> monthly
+        <span className="verifiedCheck" style={{display:base.verified? "block":"none"}}>
+          {" "}
+          <FontAwesomeIcon icon="check" />
+        </span>
       </div>
     </div>
   );

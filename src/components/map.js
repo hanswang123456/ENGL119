@@ -6,7 +6,7 @@ import "./map.css";
 export default function SimpleMap(props) {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const tokyo = { lng: 139.753, lat: 35.6844 };
+  //const tokyo = { lng: 139.753, lat: 35.6844 };
   const [zoom] = useState(14);
   maptilersdk.config.apiKey = import.meta.env.API;
 
@@ -21,8 +21,6 @@ export default function SimpleMap(props) {
     });
 
     for (let marker of props.props) {
-      console.log(marker);
-
       new maptilersdk.Marker({ color: "#FF0000" })
         .setLngLat([marker.long, marker.lat])
         .addTo(map.current);

@@ -11,11 +11,13 @@ export default function Home(props) {
       {p.posting.map((el, i) => {
         if (
           (el.title.toLocaleLowerCase().includes(p.val.toLocaleLowerCase()) ||
-            p.val == "") &&
+            p.val === "") &&
           el.price < p.price &&
           el.rating > p.rating &&
+          el.leaseType === p.leaseType &&
           el.length >= p.term &&
-          (el.type == p.type || p.type == "All") &&
+          (el.type == p.type || p.type === "All") &&
+          ((el.verified && p.verified) || !p.verified) &&
           new Date(el.year, el.month, el.day).setHours(0, 0, 0, 0) >=
             new Date(p.start).setHours(0, 0, 0, 0)
         ) {
