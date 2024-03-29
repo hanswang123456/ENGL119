@@ -35,7 +35,7 @@
       "long": -80.5335,
 "lat": 43.4753,
       "img": [
-        "https://m.media-amazon.com/images/I/716y25GL7cL._UF350,350_QL80_.jpg",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxO5RWIOoer7BcOum4NdCrdvHfZYmWHVFBhg&usqp=CAU",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1035605148028597599/original/05a03885-1578-4a54-a845-e7650ce6f96f.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1035605148028597599/original/0dadf0c7-c971-4fb1-b9b6-d41f890a0b96.jpeg?im_w=1200"
       ]
@@ -562,7 +562,7 @@
             "year": 2025,
             "price": 932,
             "rating": 4.1,
-            "length": 4,
+            "length": 8,
             "type": "Apartments",
             "long": -80.5305,
             "lat": 43.4679,
