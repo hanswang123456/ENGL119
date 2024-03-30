@@ -71,9 +71,9 @@
       "year": 2024,
       "price": 1100,
       "rating": 4.8,
-      "length": 7,
+      "length": 8,
       "type":"Apartments",
-      "leaseType":"Lease",
+      "leaseType":"Sublet",
       "long": -80.5223,
 "lat": 43.4678,
       "img": [
@@ -94,7 +94,7 @@
       "rating": 4.9,
       "length": 8,
       "type":"Houses",
-      "leaseType":"Lease",
+      "leaseType":"Sublet",
 
       "long": -80.5257,
 "lat": 43.4973,
@@ -114,11 +114,11 @@
         "year": 2024,
         "price": 932,
         "rating": 3.8,
-        "length": 4,
+        "length": 8,
         "type": "Apartments",
         "long": -80.5343,
         "lat": 43.4698,
-        "leaseType": "Lease",
+        "leaseType": "Sublet",
         "img": [
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaCftWvx2MlNMu6lgGUHd0_yty9_r8nsymcA&usqp=CAU",          "https://example.com/image2.jpg",
           "https://example.com/image3.jpg"
@@ -135,7 +135,7 @@
         "year": 2025,
         "price": 824,
         "rating": 4.1,
-        "length": 4,
+        "length": 8,
         "type": "Apartments",
         "long": -80.5446,
         "lat": 43.4740,
@@ -160,7 +160,7 @@
         "type": "Apartments",
         "long": -80.5409,
         "lat": 43.4745,
-        "leaseType": "Lease",
+        "leaseType": "Sublet",
         "img": [
           "https://st.hzcdn.com/simgs/pictures/bedrooms/montreal-student-residence-unique-home-solutions-inc-img~f4e1398d0d2e031e_4-0619-1-25f85e6.jpg",          "https://example.com/image3.jpg"
         ]
@@ -197,7 +197,7 @@
           "year": 2024,
           "price": 732,
           "rating": 4.5,
-          "length": 6,
+          "length": 4,
           "type": "Apartments",
           "long": -80.5444,
           "lat": 43.4654,
@@ -242,7 +242,7 @@
           "type": "Apartments",
           "long": -80.5317,
           "lat": 43.4721,
-          "leaseType": "Lease",
+          "leaseType": "Sublet",
           "img": [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqhbry2qqW3JtFaaWNIxvAL0ZYt_9chcNMfA&usqp=CAU",            "https://example.com/image2.jpg",
             "https://example.com/image3.jpg"
@@ -259,7 +259,7 @@
           "year": 2024,
           "price": 678,
           "rating": 3.7,
-          "length": 6,
+          "length": 8,
           "type": "Apartments",
           "long": -80.5388,
           "lat": 43.4724,
@@ -284,7 +284,7 @@
           "type": "Apartments",
           "long": -80.5430,
           "lat": 43.4729,
-          "leaseType": "Lease",
+          "leaseType": "Sublet",
           "img": [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5wBIkvWGgugUvnXaOENQgJ9bRx2JR_minkA&usqp=CAU",
             "https://example.com/image2.jpg",
@@ -320,7 +320,7 @@
           "year": 2024,
           "price": 991,
           "rating": 4.8,
-          "length": 6,
+          "length": 4,
           "type": "Apartments",
           "long": -80.5278,
           "lat": 43.4697,
@@ -344,7 +344,7 @@
           "type": "Apartments",
           "long": -80.5370,
           "lat": 43.4738,
-          "leaseType": "Lease",
+          "leaseType": "Sublet",
           "img": [
             "https://m.media-amazon.com/images/I/716y25GL7cL._UF350,350_QL80_.jpg",
             "https://example.com/image2.jpg",
@@ -407,7 +407,7 @@
             "type": "Apartments",
             "long": -80.5375,
             "lat": 43.4726,
-            "leaseType": "Lease",
+            "leaseType": "Sublet",
             "img": [
               "https://regencyoaksseniorliving.com/wp-content/uploads/31508090-shutterstock_1075737842-1.jpg",              "https://example.com/image2.jpg",
               "https://example.com/image3.jpg"
@@ -467,7 +467,7 @@
             "type": "Apartments",
             "long": -80.5260,
             "lat": 43.4722,
-            "leaseType": "Lease",
+            "leaseType": "Sublet",
             "img": [
               "https://hips.hearstapps.com/hmg-prod/images/minimalist-kitchen-1-1500581330.jpg",              "https://example.com/image2.jpg",
               "https://example.com/image3.jpg"
@@ -526,7 +526,7 @@
             "type": "Apartments",
             "long": -80.5262,
             "lat": 43.4702,
-            "leaseType": "Lease",
+            "leaseType": "Sublet",
             "img": [
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmwiDiX2F-lonHvFFlqpmD1rSr7qBrSLp-1z6haIG0WDs_VLVIdHGtaP7_OYkaK2ejXVI&usqp=CAU",              "https://example.com/image2.jpg",
               "https://example.com/image3.jpg"
@@ -586,7 +586,7 @@
             "type": "Apartments",
             "long": -80.5369,
             "lat": 43.4713,
-            "leaseType": "Lease",
+            "leaseType": "Sublet",
             "img": [
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAVjucivexC3rRxEvuVnNfj7K5E0dAfM3KWQ&usqp=CAU",              "https://example.com/image2.jpg",
               "https://example.com/image3.jpg"
@@ -646,7 +646,7 @@
             "type": "Apartments",
             "long": -80.5340,
             "lat": 43.4701,
-            "leaseType": "Lease",
+            "leaseType": "Sublet",
             "img": [
               "https://media.istockphoto.com/id/166209419/photo/modern-small-kitchen.jpg?s=612x612&w=0&k=20&c=52E19hXTqX04AY2NiAlLTj-zllX0BxwSabIDk9ZX330=",              "https://example.com/image2.jpg",
               "https://example.com/image3.jpg"
@@ -725,7 +725,7 @@
               "type": "Townhomes",
               "long": -80.5336,
               "lat": 43.4729,
-              "leaseType": "Lease",
+              "leaseType": "Sublet",
               "img": [
                 "https://cdn.thewirecutter.com/wp-content/media/2023/07/dormessentials-2048px-dormroom-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=1024",
                 "https://example.com/image2.jpg",

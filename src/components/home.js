@@ -16,8 +16,8 @@ export default function Home(props) {
             el.country
               .toLocaleLowerCase()
               .includes(p.val.toLocaleLowerCase())) &&
-          el.price < p.price &&
-          el.rating > p.rating &&
+          el.price <= p.price &&
+          el.rating >= p.rating &&
           el.leaseType === p.leaseType &&
           el.length >= p.term &&
           (el.type == p.type || p.type === "All") &&

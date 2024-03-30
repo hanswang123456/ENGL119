@@ -5,18 +5,19 @@ import { faBars, faUser } from "@fortawesome/fontawesome-free-solid";
 import Home from "./home";
 import postings from "./posting.json";
 import Footer from "./footer";
+import Calendar from "react-calendar";
 
 export default function Header() {
   const options = ["All", "Apartments", "Townhomes", "Houses"];
 
   let [searchLoc, setSearchLoc] = useState("");
-  let [price, setPrice] = useState(5000);
+  let [price, setPrice] = useState(Math.max(...postings.map((el) => el.price)));
   let [rating, setRating] = useState(1);
   let [term, setTerm] = useState(4);
   let [leaseType, setLeaseType] = useState("Sublet");
 
   var curr = new Date();
-  curr.setDate(curr.getDate() + 3);
+  curr.setDate(curr.getDate());
   var date = curr.toISOString().substring(0, 10);
   let [start, setStart] = useState(date);
   let [type, setType] = useState(options[0]);
@@ -37,7 +38,7 @@ export default function Header() {
   };
   let startFilter = function (e) {
     var curr = new Date(e.target.value);
-    curr.setDate(curr.getDate() + 3);
+    curr.setDate(curr.getDate());
     var date = curr.toISOString().substring(0, 10);
     setStart(date);
   };
@@ -89,12 +90,7 @@ export default function Header() {
           <div className="vSep"></div>
           <div>
             <label>When</label>
-            <input
-              id="datePick"
-              type="date"
-              value={start}
-              onChange={startFilter}
-            />
+            <input type="date" onChange={startFilter} value={start} />
           </div>
           <div className="vSep"></div>
           <div>
@@ -131,9 +127,10 @@ export default function Header() {
           {"Max Price: " + price}
           <input
             type="range"
-            min="50"
+            min={Math.min(...postings.map((el) => el.price))}
             max={Math.max(...postings.map((el) => el.price))}
             value={price}
+            step={100}
             className="slider"
             id="maxPrice"
             onChange={priceFilter}
@@ -156,7 +153,8 @@ export default function Header() {
           <input
             type="range"
             min="4"
-            max={12}
+            max={8}
+            step={4}
             value={term}
             className="slider"
             id="maxTerm"
